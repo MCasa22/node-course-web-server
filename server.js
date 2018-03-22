@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 });
 
 // app.use((req, res, next) => {
-//   //passa prima da qui prima di andare sulla home;
+//   //the middleware block the code execution if "next()" is not called at the end;
 //   res.render('maintenance.hbs');
 //   console.log('entered in maintenance window');
 // });
